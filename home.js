@@ -22,7 +22,10 @@
 */
 
 //CODE HERE
-
+var name = (username) => {
+    return "Welcome Back, " + username
+}
+console.log(name("bano"))
 
 
 
