@@ -22,11 +22,9 @@
 */
 
 //CODE HERE
-var name = (username) => {
-    return "Welcome Back, " + username
-}
-console.log(name("bano"))
-
+const greetUser = (username) => {
+    console.log(username("bano"))
+    return "Welcome Back, " + username;
 
 
 
@@ -53,8 +51,15 @@ console.log(name("bano"))
 const deliveryAreaZipCodes = [85205, 85204, 85203, 85213, 85206]
 
 //CODE HERE
-
-
+function canWeDeliver(zipCode) {
+  var arr= [];
+  if (zipcode <= 85213 ){
+console.log(`Sorry, we can't deliver to that address`)
+  }else if (zipcode > 85213 && zipcode >= 85203 ) {
+console.log(`You're in our delivery zone!`)
+  }
+  }
+console.log(zipCode)
 
 /* 
     Problem 2 Continued
@@ -71,10 +76,21 @@ const deliveryAreaZipCodes = [85205, 85204, 85203, 85213, 85206]
     write a new function using some sort of 
     loop (for loop, higher order array method).
     Name your new function `canWeDeliverTwo`.
-*/
 
+*/
+const deliveryAreaZipCodes = [85205, 85204, 85203, 85213, 85206]
 // CODE HERE
 
+
+
+function canWeDeliver(zipCode) {
+  var arr= [];
+  if (zipcode <= 85213 ){
+console.log(`Sorry, we can't deliver to that address`)
+  }else if (zipcode > 85213 && zipcode >= 85203 ) {
+console.log(`You're in our delivery zone!`)
+  }
+  }
 
 //////////////////PROBLEM 3////////////////////
 /* 
