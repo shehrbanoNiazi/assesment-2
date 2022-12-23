@@ -30,7 +30,13 @@
 */
 
 //CODE HERE
+class ticket {
+  constructor(items, orderTime, 
+    customerId) {
+      this.status= quede;
 
+    }
+}
 
 
 /*
