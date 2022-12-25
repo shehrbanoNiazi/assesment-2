@@ -9,8 +9,7 @@
 
 
 //////////////////PROBLEM 1////////////////////
-/*  
-    Create an object called `pizza` that has 6
+Create an object called `pizza` that has 6
     properties: 
         - name (string)
         - price (number)
@@ -31,7 +30,15 @@
 */
 
 //CODE HERE
-
+    var pizza = {
+    name: ['bano'],
+    price: '20.00',
+    category: '',
+    popularity: '',
+    rating: '',
+    tags: '',
+       
+    }
 
 
 //////////////////PROBLEM 2////////////////////
