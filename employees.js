@@ -20,7 +20,10 @@
 */
 
 //CODE HERE
-
+public employee(string name, int[] shifts){
+    shifts[names] += 1;
+    return shifts[name]
+}
 
 
 /*
