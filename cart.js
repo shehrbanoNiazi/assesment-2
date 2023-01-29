@@ -36,7 +36,12 @@ const cart = [
 //CODE HERE
 
 // const summedPrice = cart.reduce(/* CALLBACK HERE */)
-
+function addThree(price1,price2,price3){
+    return price1 + price2 + price3
+ }
+  let sum2 = addThree(9.99,8.99,7.99)
+   console.log(sum2)
+ 
 
 //////////////////PROBLEM 2////////////////////
 /*  
@@ -54,7 +59,11 @@ const cart = [
 */
 
 //CODE HERE
-
+function calcFinalPrice(cartTotal,couponValue,tax) {
+ return (cartTotal  - couponValue) + tax
+}
+ let totalPrice = calcFinalPrice(26.97,6,.06)
+ console.log(totalPrice)
 
 
 //////////////////PROBLEM 3////////////////////
