@@ -20,11 +20,18 @@
 */
 
 //CODE HERE
-public employee(string name, int[] shifts){
-    shifts[names] += 1;
-    return shifts[name]
-}
-
+class Employee {
+    constructor(name,shifts){
+        name =shehr 
+        shifts= monday
+ 
+    }
+    getSchedule() {
+     console.log(`$[NAME] works on $[SHIFTS]`)
+}    
+    }
+    
+ 
 
 /*
     Create a new instance of your class.
@@ -37,7 +44,10 @@ public employee(string name, int[] shifts){
 */
 
 //CODE HERE
-
+var empOne = {
+    name: "Jess",
+    shifts: "weekday mornings, weekday afternoons"
+ }
 /*
     Call the `getSchedule` method on the
     `empOne` object.
@@ -45,7 +55,8 @@ public employee(string name, int[] shifts){
 
 //CODE HERE
 
-
+getSchedule(empOne) 
+    console.log(getSchedule)
 /*
     Make a copy of the empOne object
     using the spread operator.
