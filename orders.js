@@ -60,6 +60,11 @@ banoticket.updateStatus('not shipped')
 */
 
 //CODE HERE
+let firstTicket = {
+foodOrdered: "pizza, bread, and soda",
+orderedAt: "7:03 PM",
+customer: 575
+}
 
 
 /*
