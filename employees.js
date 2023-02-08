@@ -44,19 +44,15 @@ class Employee {
 */
 
 //CODE HERE
-var empOne = {
-    name: "Jess",
-    shifts: "weekday mornings, weekday afternoons"
- }
+ const empOne = new Employee ('Jess', ['weekday Mornings',' weekday afternoons'])
 /*
     Call the `getSchedule` method on the
     `empOne` object.
 */
 
 //CODE HERE
+empOne.getSchedule()
 
-getSchedule(empOne) 
-    console.log(getSchedule)
 /*
     Make a copy of the empOne object
     using the spread operator.
@@ -97,6 +93,21 @@ getSchedule(empOne)
 */
 
 //CODE HERE
+class Manager{
+    constructor(name,shifts,employees){
+        this.name = name 
+        this.shifts= shifts 
+        this.employees = employees
+}
+getEmployees(){
+    console.log(`${this.name} manages ${this.employees}`) 
+}
+addEmployee(emp)
+{   
+    this.employees.push(emp)
+}
+
+} 
 
 
 
@@ -112,7 +123,7 @@ getSchedule(empOne)
 */
 
 //CODE HERE
-
+const manager = new Manager ('Winston', ['weekday mornings', 'weekday afternoons'] , ['cece','schmidt'] )
 
 /*
     Call the `getEmployees` method on the
@@ -120,7 +131,7 @@ getSchedule(empOne)
 */
 
 //CODE HERE
-
+manager.getEmployees()
 /*
     Call the `addEmployee` method on the 
     `manager` object passing in the string 
@@ -128,7 +139,7 @@ getSchedule(empOne)
 */
 
 //CODE HERE 
-
+manager.addEmployee('Coach')
 /*
     Call the `getEmployees` method on the
     `manager` object again to confirm 
@@ -136,3 +147,4 @@ getSchedule(empOne)
 */
 
 //CODE HERE
+manager.getEmployees()
