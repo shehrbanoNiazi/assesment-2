@@ -30,17 +30,17 @@ Create an object called `pizza` that has 6
 */
 
 //CODE HERE
-    var pizza = {
-    name: ['bano'],
-    price: '20.00',
-    category: '',
-    popularity: '',
-    rating: '',
-    tags: '',
+    const pizza = {
+    'name': ['cheese'],
+   ' price': '20.00',
+    'category': 'entree',
+    'popularity': 4,
+    'rating': 4 ,
+    'tags': ['gluten-free', 'kids, 'large' ]
        
     }
 
-
+        console.log(pizza)
 //////////////////PROBLEM 2////////////////////
 /* 
     Let's print a few values from our pizza object.
@@ -50,7 +50,7 @@ Create an object called `pizza` that has 6
 */
 
 //CODE HERE
-
+console.log
 
 /*
     Second, log the second tag in your pizza's
@@ -109,6 +109,7 @@ Create an object called `pizza` that has 6
     You can check for any tag that at least 1 of
     your food objects has.
 */
+    co
 
 //CODE HERE
 
