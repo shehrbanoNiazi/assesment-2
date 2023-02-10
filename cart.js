@@ -86,14 +86,24 @@ function calcFinalPrice(cartTotal,couponValue,tax) {
     Your object should have at least 4 properties. 
 */
 
-/*
-    TEXT ANSWER HERE
+
+   class Customer {
+    constructor(name,price,type,addons){
+        this.name = name;
+        this.price = price;
+        this.type = type;
+        this.addons = addons
+    }
+}
 
 */
 
 /*
     Now, create a customer object following your own
     guidelines.
-*/
+*/const milkshake = ['milk','icecream','ice','whipppedCream']
+
+let pizza = new Customer ('milkshake', 8, 'dessert', 'whippedCream')
+console.log(milkshake)
 
 //CODE HERE
