@@ -65,7 +65,7 @@ foodOrdered: "pizza, bread, and soda",
 orderedAt: "7:03 PM",
 customer: 575
 }
-
+Console.log(firstTicket)
 
 /*
     Call the `updateStatus` method on
@@ -74,3 +74,4 @@ customer: 575
 */
 
 //CODE HERE
+console.log(firstTicket.updateStatus('cooking'))
