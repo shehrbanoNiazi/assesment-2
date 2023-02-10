@@ -22,12 +22,12 @@
 //CODE HERE
 class Employee {
     constructor(name,shifts){
-        name =shehr 
-        shifts= monday
+        this.name = name; 
+        this.shifts= shifts;
  
     }
     getSchedule() {
-     console.log(`$[NAME] works on $[SHIFTS]`)
+     console.log(`$[this.name] works on $[this.shifts]`)
 }    
     }
     
@@ -66,7 +66,8 @@ empOne.getSchedule()
 */
 
 //CODE HERE
-
+let empTwo = Employee({...empOne, name: "nick"});
+empTwo.getSchedule()
 
 
 //////////////////PROBLEM 2////////////////////
